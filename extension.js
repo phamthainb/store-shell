@@ -54,7 +54,7 @@ class Extension {
   // REMINDER: It's required for extensions to clean up after themselves when
   // they are disabled. This is required for approval during review!
   disable() {
-    log(`disabling ${Me.metadata.name}`);
+    log(`disabling ${Me.metadata.name} 1233333`);
 
     this._indicator.destroy();
     this._indicator = null;
@@ -62,7 +62,6 @@ class Extension {
 }
 
 function init() {
-  log(`initializing ${Me.metadata.name}`);
-
+  log(`initializing ${Me.metadata.name}--------------------------------------------------------------------------------------------------------------------------------`);
   return new Extension();
 }
