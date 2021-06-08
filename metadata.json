@@ -1,0 +1,8 @@
+{
+  "name": "store-shell",
+  "description": "This help save many cmd and run it just by one click.",
+  "uuid": "store-shell@phamthainb",
+  "shell-version": [
+    "3.36"
+  ]
+}
